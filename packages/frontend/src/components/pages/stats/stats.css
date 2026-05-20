@@ -1,0 +1,29 @@
+.stat-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: '0 4px 12px rgba(0,0,0,0.5)';
+    padding: 24px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-4px);
+}
+
+.stat-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #222;
+}
+
+.stat-description{
+    font-size: 0.95rem;
+    margin-bottom: 16px;
+    color: #666;
+}
+
+.stat-chart {
+    height: 260px;
+}

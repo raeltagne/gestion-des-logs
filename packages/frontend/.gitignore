@@ -1,0 +1,7 @@
+# Dossier de compilation
+/dist
+
+# Fichiers de cache de Vite et d'outils
+.eslintcache
+*.tsbuildinfo
+.vitest-browser 

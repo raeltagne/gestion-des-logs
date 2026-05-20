@@ -1,0 +1,68 @@
+/*  Racine de la page */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  overflow-x: hidden;
+}
+
+/*  Container principal */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+/*  En-tête du dashboard */
+.dashboard-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*  Zone du tableau */
+.log-table-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  max-height: 60vh;
+  border: 1px solid #444;
+  border-radius: 8px;
+  background-color: #2a2a2a;
+  padding: 10px;
+  scrollbar-width: thin;
+  scrollbar-color: #888 #2a2a2a;
+}
+
+/*  Spinner centré */
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #facc15;
+}
+
+/* 📱 Responsive design */
+@media (max-width: 768px) {
+  .dashboard-container {
+    padding: 10px;
+  }
+
+  .dashboard-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .log-table-container {
+    max-height: 50vh;
+  }
+}

@@ -1,0 +1,61 @@
+.body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+.container{
+    content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../../../OIP.jpeg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  opacity: 0.9; 
+  right: 0;
+   /* background-image: url('../../../OIP.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;*/
+}
+.hero {
+      padding: 60px 40px;
+      background-color: #ffffff;
+      text-align: center;
+}
+
+    .hero h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+}
+
+    .hero p {
+      font-size: 18px;
+      color: #555;
+}
+.features{
+    display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+}
+.card {
+      background-color: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.card h3 {
+      margin-top: 0;
+      color: #1e293b;
+}

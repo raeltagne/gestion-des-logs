@@ -1,0 +1,62 @@
+/* styles.css */
+
+/* Styles généraux */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Conteneur principal */
+.stats-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour les champs de date */
+.date-input-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.date-input-container label {
+    margin-right: 10px;
+}
+
+.date-input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    background: #333;
+    color: #fff;
+}
+
+/* Styles pour les graphiques */
+.graph-container {
+    margin-top: 20px;
+}
+
+.graph-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Styles pour les messages d'erreur ou de chargement */
+.error-message {
+    color: #e57373;
+    text-align: center;
+}
+
+.loading-message {
+    text-align: center;
+    font-size: 1.2em;
+}
