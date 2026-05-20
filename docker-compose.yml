@@ -23,8 +23,8 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - NODE_ENV: production
-      - ELASTICSEARCH_URL=http://elasticsearch:9200
+       NODE_ENV: production
+       ELASTICSEARCH_URL: http://elasticsearch:9200
     depends_on:
       - elasticsearch
     networks:
